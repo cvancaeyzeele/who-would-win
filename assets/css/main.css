@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  width: 1600px;
+}
+
+.top {
+  height: 50%;
+  width: 100%;
+  display: block;
+  background-color: blue;
+  color: white;
+}
+
+.bottom {
+  height: 50%;
+  width: 100%;
+  display: block;
+  background-color: orange;
+  color: white;
+}
+
+.top > h1, .bottom > h1 {
+  margin: 0;
+  height: 50%;
+  width: 100%;
+  display: block;
+}
+
+.row {
+  float: left;  
+}
+
+.go-button { /* TODO: figure out why button is taking up space on right side */
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+}
